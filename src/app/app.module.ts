@@ -8,6 +8,10 @@ import { CardComponent } from './components/card/card.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { CardLabelComponent } from './components/card/card-label/card-label.component';
 import { CardPricingComponent } from './components/card/card-pricing/card-pricing.component';
+import { SonyComponent } from './components/sony/sony.component';
+import { MenuWhiteComponent } from './components/menu-white/menu-white.component';
+import { CardDescontoComponent } from './components/card-desconto/card-desconto.component';
+import { InformacoesComponent } from './components/card-desconto/informacoes/informacoes.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { CardPricingComponent } from './components/card/card-pricing/card-pricin
     CardComponent,
     MenuBarComponent,
     CardLabelComponent,
-    CardPricingComponent
+    CardPricingComponent,
+    SonyComponent,
+    MenuWhiteComponent,
+    CardDescontoComponent,
+    InformacoesComponent
   ],
   imports: [
     BrowserModule,
