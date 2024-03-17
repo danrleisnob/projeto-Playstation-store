@@ -1,0 +1,42 @@
+.card-pricig__container{
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+	height: 70px;
+	background-color: rgba(0, 0, 0, 0.901);
+	padding: 10px;
+	color: antiquewhite;
+	font-family: 'calibri';
+	justify-content: center;
+}
+
+.card-princig_-title{
+	font-weight: bold;
+}
+
+.card-pricubg__value__console{
+	display: flex;
+}
+
+.card-princig__value{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.card-pricubg__value__console span{
+	margin-right: .2rem;
+	color: aqua;
+	font-weight: bold;
+}
+
+.card-pricubg__value__console p {
+	color: gray;
+	padding: .2rem;
+}
